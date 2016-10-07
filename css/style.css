@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+html {
+  font-size: 62.5%;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body {
+  background: #151515 url('../images/background.jpg') no-repeat fixed left bottom;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+.header {
+  padding: 170px 30px 30px;
+}
+
+.site-title-sub {
+  margin: 0 0 30px;
+  letter-spacing: 1px;
+  font-size: 2.2rem;
+}
+
+.border-box {
+  display: inline-block;
+}
+.border-box::after,
+.border-box::before {
+    content: '';
+    display: inline-block;
+    width: 70px;
+    height: 2px;
+    margin: 0 30px;
+    background-color: #fff;
+    vertical-align: middle;
+}
+.site-title {
+  font-family: 'Pacifico', cursive;
+  margin: 50px 0 0;
+  font-size: 10.6rem;
+}
+.link-btn {
+  display: block;
+  margin: 20px 0;
+}
+.link-btn>a {
+  color: #fff;
+  font-size: 2rem;
+  text-decoration: none;
+  background-color: #F76560;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 0 30px;
+  transition: 0.3s;
+}
+.link-btn>a:hover {
+  opacity: 0.5;
+}
